@@ -1,0 +1,210 @@
+body{
+    font-family: 'Baloo Bhai', cursive;
+    background-color:gainsboro;
+}
+body{
+    font-family: 'Baloo Bhai', cursive;
+    margin:0px;
+    text-transform: capitalize;
+    cursor: pointer;
+    width: auto;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:white;
+    opacity: .7;
+     
+    top:0px;
+    width:100%;
+    height:10vh;
+    
+
+
+}
+#navbar ul{
+    display:flex;
+
+}
+li{
+    margin-left:20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 140%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;;
+   
+}
+a:hover{
+    color:blue;
+}
+#logo1{
+    margin-left:90px;
+    padding-top: 20px;
+}
+#logo{
+    display:flex;
+    margin-left:30px;
+}
+#logo span{
+    padding-top:30px;
+    
+}
+#premium{
+    height: 100px;
+    line-height: 2em;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+   
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+#premium::before{
+    content: '';
+    background-image: url(pexels-pixabay-268533.jpg);
+    position: absolute;
+    opacity: 0.9;
+    top: 0px;
+    
+    width: 100vw;
+    height: 100vh;
+    z-index:-1;
+    
+}
+.button {
+    background-color:white; /* Green */
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:30px;
+  }
+  .button:hover{
+        box-sizing: 1px -1px 2px blue;
+  }
+ 
+  #client{
+    margin:90px;
+    align-items: center;
+    text-align: center;
+    border-radius:20px ;
+    background-color: white;
+    transition-delay: 2s;
+
+  }
+  #client img{
+    border-radius: 20px;
+    padding-top:20px;
+  }
+  #client:hover{
+    border:.5px solid black;
+    background-image: linear-gradient(red, yellow, blue);
+  }
+  .h3{
+    margin-left: 30%;
+
+  }
+ #blogs{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width:400px;
+    column-gap: 30px;;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 50px;
+ }
+ .outer{
+        display:grid;    background-color: white;
+        align-items: center;
+        text-align: center;
+ }
+ .inner{
+    display:flex;
+    border-bottom: .4px solid black;
+    align-items: center;
+    text-align: center;
+    
+ }
+ #blogs span{
+    padding-top: 10px;
+
+ }
+ .space{
+    margin-right:190px;
+ }
+ .foot {
+    display : grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: aliceblue;
+    color:black;
+    margin-left: 20px;;
+    padding-left:20px;
+}
+.foot .container1 .grofer{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .container1 .contact{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .container1 .contact{
+    font-weight: bold;
+    color:rgb(3, 3, 31);
+}
+.foot .container1 .icon .a{
+    color:black;
+}
+.foot .container2 ul{
+    list-style-type: none;
+}
+.foot .container3 ul{
+    list-style-type: none;
+}
+.button3{
+    border:.5px solid black;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;;
+    padding: 20px;
+}
+.outer:hover{
+    background-image: linear-gradient(red, yellow, blue);
+
+}
+.red-color {
+    color:red;
+}
+.fa {
+    padding: 4px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border:1px solid blue;
+    border-radius: 10px;
+    margin-left:30px;
+  }
